@@ -9,6 +9,7 @@ for (let i = 0; i < numbers.length; i++){
     else if (i % 5 === 0){
         console.log('Buzz');
     }
-    else (i % 3 === 0 && i % 0 === 5)
+    else {
         console.log('Fizz Buzz');
+    }
 }
